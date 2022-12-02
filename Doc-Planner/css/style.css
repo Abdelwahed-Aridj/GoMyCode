@@ -1,0 +1,479 @@
+div {
+  
+
+}
+
+/*absolute relatif to the main to post the image a travailler avec la div*/
+
+.main-header-class {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    background: white;
+  }    
+    
+
+
+.header-logo-class{
+   width: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   
+    }
+ .header-navbar-class{
+    width: 50%;  
+    
+    }
+   
+ ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none; 
+}
+
+.main-menu li {
+    margin: 1%;
+}
+.main-menu a {
+    color: #00b39b;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.first-section-class{
+    color: #00b39b;
+    margin-top: 70px; 
+    
+}
+
+.first-section-description-class{
+    display: flex;
+    flex-direction: row;
+    padding: 0% 10%;
+    color: #747474;    
+    font-family: Helvetica;
+    font-size: 16px;
+    
+}
+
+.first-section-description-class p {
+    display: block;
+    color: #747474;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 1.6;
+
+}
+ 
+.select-class{
+width: 50%;
+background: transparent;
+border: 0;
+border-radius: 0;
+height: 40px;
+-webkit-appearance: none;
+text-transform: uppercase;
+outline: 0;
+
+}
+
+
+
+  .screen-image-class{
+    width: 50%;
+  }
+
+  select {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    width: 160px;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.style-select {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  outline: 0;
+  border: 0;
+  background: #3d83df;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: #333;
+  background: #fff;
+  font-weight: 600;
+  letter-spacing: .04em;
+  font-size: .75rem;
+  text-align: center;
+  text-decoration: none!important;
+  -webkit-transition: all .2s ease 0s;
+  -moz-transition: all .2s ease 0s;
+  -ms-transition: all .2s ease 0s;
+  -o-transition: all .2s ease 0s;
+  transition: all .2s ease 0s;
+  cursor: pointer;
+  margin-top: 5%;
+  margin-left: 20%;
+  border-radius: 10px;
+}
+.style-select select {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  height: 40px;
+  -webkit-appearance: none;
+  text-transform: uppercase;
+  outline: 0;
+}
+
+
+.select-screen {
+    display: flex;
+    flex-direction: row;
+  }
+
+.second-section-description-class{
+    display: flex;
+    flex-direction: row;
+    margin-top: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2.5%;
+  }
+
+#second-section-first-container{
+    width: 50%;
+    padding-left: 2.5%;
+    margin-right: 2%;
+    background: #00ccb1;
+    border-radius: 10px;
+    overflow: hidden;
+    color:white;
+
+  }
+
+#second-section-second-container{
+    width: 50%;
+    padding-left: 2.5%;
+    background: #3d83df;
+    border-radius: 10px;
+    overflow: hidden;
+    color:white;
+  }
+
+#second-section-right-element{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.brand-section-class{
+  display: flex;
+  flex-direction: row;
+  color: #00ccb1;
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+
+.brand-section-left{
+  width: 33%;
+  
+
+}
+
+.brand-section-right{
+  width: 67%;
+}
+
+.brand-logo-link{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.brand-background-logo{
+  background-image:url("https://media.licdn.com/dms/image/C4E0BAQFOWnbru99f5w/company-logo_200_200/0?e=2159024400&v=beta&t=EceoeatN3ZdtLKlQdk-5b9mznHFILuVm2EExIss1FTA");
+  height:25px;
+  width: 25px;;
+  background-size:contain;
+  background-repeat:no-repeat;
+    
+}
+
+.brand-link-class{
+  display:flex;
+  flex-direction: row;
+  color: #00ccb1;
+  font-size: 20px;
+  text-transform: capitalize;
+
+}
+
+
+.stats-section-class{
+  display: flex;
+  flex-direction: row;
+  color: #00ccb1;
+  background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+
+}
+
+.text-description-class{
+  color: #747474;
+  line-height: 1.5;
+
+}
+
+.logo-stats-section{
+  background-image:url('./test.png');
+  height: 420px;
+  width: 450px;
+  background-size:contain;
+  background-repeat:no-repeat;
+  
+    
+}
+
+#left-stats-section{
+  margin-top: 3.5%;
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+  
+}
+
+#logo-stats{
+  position: absolute;
+  top: 258px;
+  left: 0;
+  bottom: 0;
+}
+
+
+.right-stats-section-class{
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin-right: 10%;
+  
+}
+
+#right-stats-section-first{
+    align-content: center;
+    justify-content: center;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    margin-right: 2.5%;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
+    height: 250px;
+    text-align: center;
+    padding: 5%;
+    width: 225px;;
+  }
+
+  #right-stats-section-second{
+    margin-right: 2.5%;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
+    height: 250px;
+    width: 225px;
+    text-align: center;
+    padding: 5%;
+    margin-bottom: 2.5%;
+    
+  }
+
+  #right-stats-section-third{
+    margin-top: 10%;
+    margin-left: 2.5%;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
+    height: 250px;
+    text-align: center;
+    width: 225px;;
+    
+   
+  }
+
+  #right-stats-section-fourth{
+    margin-top: 5%;
+    margin-left: 2.5%;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
+    height: 250px;
+    text-align: center;
+    margin-bottom: 10%;
+    width: 225px;
+  }
+
+  #stats-section{
+    background: #e5faf8;
+  }
+
+
+#first-group{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#information-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#information-section-container h1 {
+  font-size: 28px;
+  color: #00b39b;
+  text-align: center;
+  line-height: 1.3;
+}
+
+#information-section-container p {
+  color: #747474;
+  font-size: 15px;
+  text-align: center;
+  line-height: 1.7142857143;
+}
+
+#pictures-section{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 10%;
+  
+}
+
+.button-class {
+  border: none;
+  color: #fff;
+  background: #3d83df;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  letter-spacing: .04em;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button-class:hover {
+  background-color: #0276FD;
+}
+
+
+
+.picture-container {
+  background: #fff;
+  border: 1px solid rgba(0,0,0,.03);
+  border-radius: 6px;
+  overflow: hidden;
+  max-width: 311px;
+  z-index: 2;
+  position: relative;
+  display: block;
+  color: #747474;
+}
+
+.office__desc {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6666666667;
+  padding: 4%;
+}
+
+.image-hover {
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.03);
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 311px;
+    z-index: 2;
+    position: relative;
+    display: block;
+    color: #747474;
+}
+
+.image-hover {
+ 
+  transition: box-shadow 500ms;
+}
+
+.image-hover:hover {
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.5);
+}
+
+
+#pictures-section-first{
+  display: flex;
+  flex-direction: row;
+}
+
+#pictures-section-second{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  color: #ababab;
+  font-size: 13px;
+  text-align: center;
+  align-items: center;
+}
+
+.footer-container a{
+  text-decoration: none;
+  color:#4682B4;
+}
+
+hr{
+  display: block;
+  border-color: #e9e9e9;
+  border-width: 0.5px;
+  margin-top: 5%;
+  margin-bottom: 1%;
+  }
+
+
+  #title-text{
+    position: absolute;
+    top: -20px;
+    left: 100px;
+    }
+  
+  #description-text{
+    position: absolute;
+    top: 65px;
+    left: 100px;
+    }

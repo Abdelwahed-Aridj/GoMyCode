@@ -1,0 +1,26 @@
+// Create a database called "contact"
+
+use contact
+
+// Create a collection called "contactlist"
+
+db.createCollection("contactlist")
+
+// Insert these documents in "contactlist" (contactlist.png)
+
+// Display all of the contacts list.
+db.contactlist.find()
+
+// Display all the information about only one person using his ID.
+db.contactlist.find({"_id": ObjectId("5b0873e48714186318000001")})
+
+//Display all the contacts with an age >18.
+db.contactlist.find({"age": {"$gt": 18}})
+
+//This will return all the documents where the age field is greater than 18.
+db.contactlist.find({"age": {"$gt": 18}, "first_name": {"$regex": "ah"}})
+
+// change name to anis
+db.contactlist.update({"last_name": "Kefi", "first_name": "Seif"}, {"$set": {"first_name": "Anis"}})
+// delete under age 5
+db.contactlist.deleteMany({"age": {"$lt": 5}})
